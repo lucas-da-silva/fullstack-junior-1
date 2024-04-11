@@ -13,8 +13,14 @@ const config: Config = {
       },
 
       colors: {
-        primary: "#303030",
-        secondary: "#909090",
+        "color": "#303030",
+        "secondary-color": "#909090",
+      },
+
+      fontSize: {
+        "section-size": ["32px", "47.42px"],
+        "sub-section-size": ["18px", "26.68px"],
+        "description-size": ["18px", "32px"],
       }
     },
   },
