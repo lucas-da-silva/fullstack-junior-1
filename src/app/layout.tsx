@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Oswald, Quattrocento } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const oswald = Oswald({ subsets: ["latin"], variable: "--title-font" });
+const quattrocento = Quattrocento({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Personal Portfolio",
@@ -14,8 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="">
+      <body
+        className={`${quattrocento.className} ${oswald.variable} bg-[#C4C4C4] bg-hero-pattern`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
