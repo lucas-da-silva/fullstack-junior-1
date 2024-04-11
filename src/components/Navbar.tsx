@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div className="flex mt-12 justify-between">
       <nav>
-        <ul className="flex space-x-5 text-primary font-normal text-lg">
+        <ul className="flex space-x-14 text-primary font-normal text-lg/[19.94px]">
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -26,11 +26,11 @@ export default function Navbar() {
         </ul>
       </nav>
 
-      <h1 className="font-title font-bold text-4xl text-primary">
+      <h1 className="mr-44 font-title font-bold text-4xl/[53.35px] text-primary text-center">
         Arc<span className="text-secondary">ane</span>
       </h1>
 
-      <div className="flex space-x-6 text-primary">
+      <div className="flex space-x-8 text-primary">
         <Link href="/">
           <IoLogoInstagram className="w-6 h-6" />
         </Link>

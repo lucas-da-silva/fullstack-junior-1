@@ -16,9 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="">
-      <body
-        className={`${quattrocento.className} ${oswald.variable} bg-[#C4C4C4] bg-hero-pattern`}
-      >
+      <body className={`${quattrocento.className} ${oswald.variable}`}>
         {children}
       </body>
     </html>
