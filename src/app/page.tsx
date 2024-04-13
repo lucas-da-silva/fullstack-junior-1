@@ -17,9 +17,9 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="flex mt-20 justify-between">
-        <div>
-          <h2 className="font-title font-medium text-section-size text-primary-color">
+      <div className="flex mt-32 justify-between">
+        <div className="self-end">
+          <h2 className="font-title font-medium text-section-size text-primary-color mb-8">
             Service
           </h2>
 
@@ -92,18 +92,20 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <div className="bg-[#CAC6BB] border border-red-500 rounded-t-3xl w-[544px] height-[503px]">
-          <div className="">
-            <Image
-              src={ProfileImage}
-              alt="Profile"
-              width="1120.5"
-              height="852.77"
-            />
+        <div className="flex ml-28 justify-center w-[574px] h-[517px] border-x border-t border-[#CAC6BB] rounded-t-3xl self-end">
+          <div className="relative rounded-t-3xl w-[544px] h-[503px] bg-[#CAC6BB] self-end">
+            <div className="absolute top-[-143px] left-[-17px] w-[1120.5px] h-[852.77px] self-end">
+              <Image
+                src={ProfileImage}
+                alt="Person image"
+                width="1120.5"
+                height="852.77"
+              />
+            </div>
           </div>
-        </div> */}
+        </div>
 
-        <div className="w-[408px]">
+        <div className="w-[408px] self-end">
           <h2 className="font-title font-medium text-section-size text-primary-color mb-8">
             Web Specialist based in Jakarta
           </h2>
