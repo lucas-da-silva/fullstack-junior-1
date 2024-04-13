@@ -1,3 +1,3 @@
-import jobs from "../database/jobs"
+import jobs from "@/database/jobs";
 
-export const getAllJobs = () =>  jobs;
+export const getAllJobs = () => jobs;
