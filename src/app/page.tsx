@@ -8,7 +8,7 @@ import ProfileImage from "@/assets/profile-image.svg";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-[1550px] mb-20">
+    <main className="mx-auto max-w-[1550px] mb-36">
       <Navbar />
 
       <div className="mt-[90px]">
@@ -94,7 +94,7 @@ export default function Home() {
 
         <div className="flex ml-28 justify-center w-[574px] h-[517px] border-x border-t border-[#CAC6BB] rounded-t-3xl self-end">
           <div className="relative rounded-t-3xl w-[544px] h-[503px] bg-[#CAC6BB] self-end">
-            <div className="absolute top-[-143px] left-[-17px] w-[1120.5px] h-[852.77px] self-end">
+            <div className="absolute top-[-143px] left-[-17px] w-[580px] self-end">
               <Image
                 src={ProfileImage}
                 alt="Person image"

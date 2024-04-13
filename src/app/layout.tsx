@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="">
-      <body className={`${quattrocento.className} ${oswald.variable}`}>
+      <body
+        className={`${quattrocento.className} ${oswald.variable} bg-[#EFEFEE] bg-[url('/hero-pattern.svg')] bg-bottom bg-cover bg-no-repeat bg-fixed`}
+      >
         {children}
       </body>
     </html>
