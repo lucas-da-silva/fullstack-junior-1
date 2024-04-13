@@ -13,7 +13,7 @@ const config: Config = {
       },
 
       colors: {
-        "color": "#303030",
+        "primary-color": "#303030",
         "secondary-color": "#909090",
       },
 

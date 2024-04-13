@@ -8,7 +8,7 @@ import {
 
 export default function Navbar() {
   return (
-    <div className="flex mt-12 justify-between">
+    <div className="flex mt-11 justify-between">
       <nav>
         <ul className="flex space-x-14 text-primary-color font-normal text-lg/[19.94px]">
           <li>
